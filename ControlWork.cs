@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/*
+Написать программу, которая из массива строк, формирует массив
+длинна строк элементов которого <= 3 символа.
+Первоначальный массив можно ввести, либо задать.
+Пример: ["hello","2","world",":-)"] -> ["2",":-)"]
+*/
+
+Console.Clear();
+string[] Array = BeginArray();
+
+string[] BeginArray() {
+    Console.Write("Введите значения через пробел: ");
+    return Console.ReadLine().Split(" ");
+}
