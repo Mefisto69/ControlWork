@@ -9,6 +9,7 @@ Console.Clear();
 string[] Array = BeginArray();
 string[] Result = ResultArray(Array, 3);
 
+
 string[] ResultArray(string[] input, int n)
 {
     string[] array = new string[FillArray(input, n)];
